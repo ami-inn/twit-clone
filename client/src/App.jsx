@@ -1,10 +1,16 @@
+import LeftSidebar from "./components/LeftSidebar"
+import Topbar from "./components/Topbar"
 
 
 const App = () => {
   return (
-    <div>
-      Hello
-    </div>
+    <>
+    <Topbar/>
+    <main className="flex flex-row">
+      <LeftSidebar/>
+    </main>
+    
+    </>
   )
 }
 
