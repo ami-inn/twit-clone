@@ -1,16 +1,16 @@
-import LeftSidebar from "./components/LeftSidebar"
-import Topbar from "./components/Topbar"
+
+import { Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
+import Create from './pages/Create';
 
 
 const App = () => {
   return (
-    <>
-    <Topbar/>
-    <main className="flex flex-row">
-      <LeftSidebar/>
-    </main>
+    <Routes>
+<Route path='/' element={<Home/>} />
+<Route path='/create' element={<Create/>} />
     
-    </>
+    </Routes>
   )
 }
 

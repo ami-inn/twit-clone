@@ -8,11 +8,18 @@ const RightSidebar = () => {
             <h3 className="text-heading4-medium text-black">
                 suggested communities
             </h3>
+            <div className="mt-7 flex w-[350px] flex-col gap-9">
+
+                {/* community card speate */}
+
+                <article className="user-card">
+
+                </article>
+
+            </div>
         </div>
 
-            <div>
-                
-            </div>
+
 
     </section>
   )

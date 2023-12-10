@@ -1,7 +1,11 @@
-import home from '../assets/home.svg'
-import search from '../assets/search.svg'
-import create from '../assets/create.svg'
-import user from '../assets/user.svg'
+import home from '../assets/home.gif'
+import search from '../assets/search.gif'
+import create from '../assets/create.gif'
+import user from '../assets/profile.gif'
+import share from '../assets/share.svg'
+import heart from '../assets/heart-filled.svg'
+import repost from '../assets/repost.svg'
+import reply from '../assets/reply.svg'
 
 export const sidebarLinks = [
     {
@@ -16,8 +20,8 @@ export const sidebarLinks = [
     },
     {
       imgURL: create,
-      route: "/create-thread",
-      label: 'create-thread',
+      route: "/create",
+      label: 'create-tweet',
     },
     {
       imgURL: user,
@@ -25,3 +29,22 @@ export const sidebarLinks = [
       label: "Profile",
     },
   ];
+
+  export const twitLinks = [
+    {
+      imgURL:heart,
+      name:'heart'
+    },
+    {
+      imgURL:repost,
+      name:'repost'
+    },
+    {
+      imgURL:share,
+      name:'share'
+    },
+    {
+      imgURL:reply,
+      name:'reply'
+    }
+  ]
